@@ -19,4 +19,8 @@ public class TestComparatorEmployeeLambda {
 		Collections.sort(empList, (e1,e2)->e2.getName().compareTo(e1.getName()));
 		System.out.println(empList);
 	}
+
+	
+	
+	
 }
